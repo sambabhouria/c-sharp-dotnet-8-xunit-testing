@@ -1,3 +1,48 @@
+# How to Use xUnit for Unit Testing in .NET Project Using C# in VSCode
+
+# Introduction to xUnit
+
+xUnit support two different types of unit test, Fact and Theory.
+
+1.  - xUnit Fact when we have some criteria that always must be met, regardless of data.
+      For example, when we test a controller’s action to see if it’s returning the correct view.
+
+2.  - xUnit Theory on the other hand depends on set of parameters and its data, our test will pass for some set of data and not the others.
+      We have a theory which postulate that with this set of data, this will happen.
+
+xUnit is an open-source unit testing tool for the .NET Framework. It is highly extensible and provides
+various features to simplify the process of writing and executing unit tests.
+
+# Setting up xUnit
+
+Before writing unit tests, make sure you have installed the xUnit framework in your project.
+You can do this using NuGet Package Manager or .NET CLI.
+![app](/00.png)
+
+# Introduction
+
+In software development, it’s crucial to make sure your code works correctly. One of the best ways to do this is through unit testing.
+Unit testing means testing small parts of your software, like a single function or method, to make sure they work as expected.
+In this app, we will learn how to use xUnit for unit testing in .NET projects. We will use C# and Visual Studio Code (VSCode) as our tools.
+
+# Why Is Unit Testing Important?
+
+1.  - Finding Bugs Early: Unit tests help you find problems early in the development process, before the software is fully integrated. This makes it easier and faster to fix issues.
+2.  - Better Code Quality: Writing unit tests encourages you to write clean and well-organized code. When you know your code will be tested, you’re more likely to write good, understandable code..
+3.  - As you improve or change your code, unit tests help ensure that these changes don’t break existing functionality. This makes it safer to update and improve your software..
+4.  - Unit tests can also help explain how the code should work. They serve as examples of how to use the code correctly.
+5.  - : In a team, unit tests help make sure that everyone’s code works together smoothly. This is especially important in large projects where many people are working on different parts of the software
+      .
+6.  - Unit tests help save time and money by catching issues early.
+
+## Screenshots
+
+![app](/AAA.png)
+![app](/0.png)
+![app](/failecase.png)
+![app](/0.png)
+![app](/1.png)
+
 # Step 1: Create a Solution and Console Application
 
 1.  - Open a Terminal or Command Prompt: You can use the terminal in VSCode or any command prompt.
@@ -165,3 +210,15 @@ using UnitTestConsoleApp;
       This command runs all the tests in your solution and displays the results in the terminal.
 
 2.  - Run Tests in VSCode: You can also run tests directly within VSCode by using the Test Explorer extension or by running the tests from the terminal.:
+
+# Learn Microsoft
+
+0. - https://www.tutorialsteacher.com/
+1. - Partial classes : https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods
+   - https://www.tutorialsteacher.com/csharp/csharp-partial-class
+2. - Déléguee : https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/delegates/
+3. - https://www.tutorialsteacher.com/csharp/csharp-delegates
+4. - https://www.tutorialsteacher.com/csharp/csharp-delegates
+5. - https://www.tutorialsteacher.com/codeeditor?cid=cs-au49Bs
+
+   ![app](/delegate.png)

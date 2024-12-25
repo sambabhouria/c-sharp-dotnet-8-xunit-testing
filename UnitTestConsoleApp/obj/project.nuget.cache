@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qno61JUxQWbwuWGaGrVWLCQQls6zXecx3jy3HNZte8oSrrL6AdFRjQ6flXNc+/ibUYbhWI9R+1v355afiEFI2Q==",
+  "dgSpecHash": "E/lqZec6qpR7T7ptg+PHa0WomywVUWKJTelsM/+7YqDXRhoEsst9hMFuUue3Jwd8DYiJNvCIi2XSWyRNfoVHUw==",
   "success": true,
   "projectFilePath": "/Users/sambadiallo/Documents/ASP NET/testing/UnitTestSolution/UnitTestConsoleApp/UnitTestConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sambadiallo/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/sambadiallo/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

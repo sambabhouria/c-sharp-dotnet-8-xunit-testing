@@ -12,6 +12,7 @@ public class UserAccountTests
         _mockEmailService = new Mock<IEmailService>();
         _userAccount = new UserAccount(_mockEmailService.Object);
     }
+    
 
     [Fact]
     public void SetEmail_ValidEmail_SendsWelcomeEmail_ReturnsTrue()
@@ -27,9 +28,11 @@ public class UserAccountTests
 
         // Assert
         Assert.True(result);
+
         _mockEmailService.Verify(service => 
                 service.SendEmail(testEmail, "Welcome", "Thank you for registering."), Times.Once);
     }
+
 
     [Fact]
     public void SetEmailWithAttachment_ValidEmailAndAttachment_SendsEmailWithAttachment_ReturnsFalse()

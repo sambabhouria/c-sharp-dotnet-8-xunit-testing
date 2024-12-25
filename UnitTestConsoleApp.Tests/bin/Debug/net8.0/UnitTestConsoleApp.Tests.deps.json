@@ -396,6 +396,9 @@
       },
       "xunit.runner.visualstudio/2.5.3": {},
       "UnitTestConsoleApp/1.0.0": {
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
         "runtime": {
           "UnitTestConsoleApp.dll": {}
         }
