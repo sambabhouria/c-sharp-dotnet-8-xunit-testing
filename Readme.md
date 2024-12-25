@@ -217,8 +217,8 @@ using UnitTestConsoleApp;
 1. - Partial classes : https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods
    - https://www.tutorialsteacher.com/csharp/csharp-partial-class
 2. - Déléguee : https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/delegates/
+     ![app](/delegate.png)
 3. - https://www.tutorialsteacher.com/csharp/csharp-delegates
 4. - https://www.tutorialsteacher.com/csharp/csharp-delegates
 5. - https://www.tutorialsteacher.com/codeeditor?cid=cs-au49Bs
-
-   ![app](/delegate.png)
+6. - https://learn.microsoft.com/fr-fr/aspnet/core/fundamentals/minimal-apis/test-min-api?view=aspnetcore-9.0
