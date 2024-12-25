@@ -1,6 +1,6 @@
 using Moq;
+namespace UnitTestConsoleApp.Tests.ClassicUnderTest;
 
-namespace UnitTestConsoleApp.Tests;
 
 public class UserAccountTests
 {

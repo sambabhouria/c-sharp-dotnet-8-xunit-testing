@@ -1,5 +1,8 @@
-using Xunit;
-namespace UnitTestConsoleApp.Tests;
+using System.Collections;
+using System.Collections.Generic;
+using System;
+
+namespace UnitTestConsoleApp.Tests.ClassicUnderTest;
 /*
 In this example:
 We have a CalculatorTests class containing tests for the Add method of the Calculator class.
@@ -20,6 +23,58 @@ public class CalculatorTests {
         _calculator = new Calculator();
     }
 
+
+    // [Fact]
+    // For skipping a test, you can use the Skip property of the Fact attribute.
+    // [Fact(DisplayName = "My First Fact Method", Skip = "This test is skipped")]
+    [Fact(DisplayName = "My First Fact Method")]
+
+    public void FirstFact()
+    {
+        Console.WriteLine("First fact");
+        Assert.Equal(5,2+3);
+    }
+
+    [Theory]
+    [InlineData(5, 3, 2)]
+    [InlineData(-1, -3, 2)]
+    [InlineData(94, -3, 97)]
+    public void InlineDataTheory(int expected, int addend1, int addend2)
+    {
+        Assert.Equal(expected, addend1 + addend2);
+    }
+
+    [Theory]
+    [InlineData(5,3,2)]
+    [InlineData(7,3,4)]
+    [InlineData(-1,-3,2)]
+    public void FirstTheory(int expected, int addend1, int addend2)
+    {
+      Console.WriteLine($"First Theory {expected},{addend1},{addend2}");
+      Assert.Equal(expected,addend1+addend2);
+    }
+
+
+      string _customMessage = "Custom message";
+      [Fact]
+      public void ShouldThrowAnException()
+      {
+          var ex = Assert.Throws<InvalidOperationException>(() => _calculator.ThrowAnError(_customMessage));
+          Assert.Equal(_customMessage,ex.Message);
+      }
+
+    [Fact]
+    public void ShouldRecordAnException()
+    {
+        //Better follows AAA syntax
+        Exception ex = Record.Exception(() => _calculator.ThrowAnError(_customMessage));
+        //Doesn't check the exception type in the action
+        if (!(ex is InvalidOperationException))
+        {
+            Assert.True(false);
+        }
+        Assert.Equal(_customMessage, ex.Message);
+    }
 
     [Fact]
     public void Add_WhenCalled_ReturnsSumOfArguments()
@@ -86,6 +141,12 @@ public class CalculatorTests {
         Assert.True(_calculator.IsOddNumber(c));
         Assert.True(_calculator.IsOddNumber(d));
     }
+
+
+    // private void ThrowAnError()
+    // {
+    //     throw new InvalidOperationException(_customMessage);
+    // }
 
 
     // [Theory]

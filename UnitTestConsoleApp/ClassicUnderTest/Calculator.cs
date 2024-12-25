@@ -10,4 +10,9 @@ public class Calculator
       return number % 2 != 0;
     }
 
+    public void ThrowAnError(string _customMessage)
+    {
+        throw new InvalidOperationException(_customMessage);
+    }
+
 }

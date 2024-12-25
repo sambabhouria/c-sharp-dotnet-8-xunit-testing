@@ -4,7 +4,7 @@ using  UnitTestConsoleApp.SystemUnderTest;
 
 
 
-namespace MOQExamples.A_Basics
+namespace UnitTestConsoleApp.Tests.MoqSystemUnderTest.Basics
 {
     public class A_FirstExample
     {
@@ -16,11 +16,13 @@ namespace MOQExamples.A_Basics
             var name = "Fred FlintStone";
             var customer = new Customer {Id = id, Name = name};
             var mockRepo = new Mock<IRepo>();
+
             mockRepo.Setup(x => x.Find(id)).Returns(customer);
 
             var controller = new TestController(mockRepo.Object);
             //Act
             var actual = controller.GetCustomer(id);
+            
             //Assert
             Assert.Same(customer,actual);
             Assert.Equal(id,actual.Id);

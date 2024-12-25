@@ -1,4 +1,6 @@
 using System.Runtime.CompilerServices;
+namespace UnitTestConsoleApp.Tests.ClassicUnderTest;
+
 using UnitTestConsoleApp;
     public class MathOperationTest
     {
@@ -63,7 +65,8 @@ using UnitTestConsoleApp;
           Assert.True(MathOperation.IsOddNumber(3));
         }
 
-        [Fact]
+        // [Fact]
+        [Fact(DisplayName = "My Test Method")]
         public void IsOddNumber_ValueOf6_ShouldReturnFalse()
         {
           Assert.False(MathOperation.IsOddNumber(6));

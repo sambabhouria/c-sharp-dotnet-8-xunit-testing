@@ -37,7 +37,8 @@ namespace UnitTestConsoleApp.SystemUnderTest
                 //_repo.AddRecord(new Customer());
                 //var c = _repo.Find(id);
                 //return new Customer { Id = 12, Name = "Fred FlintStone" };
-                return _repo.Find(12);
+                // return _repo.Find(12); (this is the original code that was replaced by the next line for testing)  
+                return _repo.Find(id);
             }
             catch (Exception ex)
             {
