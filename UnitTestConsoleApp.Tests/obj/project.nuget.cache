@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X7+V5OvBjog9xWGZGhlSTOJDoqVVFTSWQWTwAnePbwGy4wWv7ayXEPTIUSIugUUDU4UqrHY1l61+4gXRF07BvQ==",
+  "dgSpecHash": "v/E4stBpeWQQPf+Rf5xJT3Pg8n+jsxbEj/RKH8xUlmHPeN5KIYJZ4iQsuJyj9P4jDU28fvuo7a6dK/pc4YXl8g==",
   "success": true,
-  "projectFilePath": "/Users/sambadiallo/Documents/ASP NET/testing/UnitTestSolution/UnitTestConsoleApp.Tests/UnitTestConsoleApp.Tests.csproj",
+  "projectFilePath": "/Users/sambadiallo/Documents/ASP NET/vscode/testing/UnitTestSolution/UnitTestConsoleApp.Tests/UnitTestConsoleApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/sambadiallo/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/sambadiallo/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",

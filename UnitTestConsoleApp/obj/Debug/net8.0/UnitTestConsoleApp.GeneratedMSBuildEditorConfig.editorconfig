@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UnitTestConsoleApp
-build_property.ProjectDir = /Users/sambadiallo/Documents/ASP NET/testing/UnitTestSolution/UnitTestConsoleApp/
+build_property.ProjectDir = /Users/sambadiallo/Documents/ASP NET/vscode/testing/UnitTestSolution/UnitTestConsoleApp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

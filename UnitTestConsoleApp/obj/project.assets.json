@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sambadiallo/Documents/ASP NET/testing/UnitTestSolution/UnitTestConsoleApp/UnitTestConsoleApp.csproj",
+      "projectUniqueName": "/Users/sambadiallo/Documents/ASP NET/vscode/testing/UnitTestSolution/UnitTestConsoleApp/UnitTestConsoleApp.csproj",
       "projectName": "UnitTestConsoleApp",
-      "projectPath": "/Users/sambadiallo/Documents/ASP NET/testing/UnitTestSolution/UnitTestConsoleApp/UnitTestConsoleApp.csproj",
+      "projectPath": "/Users/sambadiallo/Documents/ASP NET/vscode/testing/UnitTestSolution/UnitTestConsoleApp/UnitTestConsoleApp.csproj",
       "packagesPath": "/Users/sambadiallo/.nuget/packages/",
-      "outputPath": "/Users/sambadiallo/Documents/ASP NET/testing/UnitTestSolution/UnitTestConsoleApp/obj/",
+      "outputPath": "/Users/sambadiallo/Documents/ASP NET/vscode/testing/UnitTestSolution/UnitTestConsoleApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sambadiallo/.nuget/NuGet/NuGet.Config"
