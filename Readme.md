@@ -37,11 +37,11 @@ In this app, we will learn how to use xUnit for unit testing in .NET projects. W
 
 ## Screenshots
 
-![app](/AAA.png)
-![app](/0.png)
-![app](/failecase.png)
-![app](/0.png)
-![app](/1.png)
+1. - ![app](/AAA.png)
+2. - ![app](/0.png)
+3. - ![app](/failecase.png)
+4. - ![app](/0.png)
+5. - ![app](/1.png)
 
 # Step 1: Create a Solution and Console Application
 
